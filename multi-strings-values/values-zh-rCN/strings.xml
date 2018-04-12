@@ -1,0 +1,1108 @@
+<resources>
+    <string name="app_name">FlightGo</string>
+
+    <string name="delete_info">确定删除？</string>
+    <string name="agree">确定</string>
+    <string name="disagree">取消</string>
+    <string name="delete_info_empty">请先选中文件</string>
+    <string name="delete_info_empty_video">请先选中文件</string>
+    <string name="load_info_empty">请先选中文件</string>
+    <string name="load_info_empty_video">请先选中文件</string>
+    <string name="emptyview">什么都没有，快去联机拍摄美图吧～</string>
+    <string name="select_all">全选</string>
+    <string name="select">选择</string>
+    <string name="select_cancel">取消</string>>
+    <string name="ready_go">GO</string>
+    <string name="exit">再按一次退出应用</string>
+    <string name="exit2">退出</string>
+    <string name="delete_info_video">确定删除？</string>
+    <string name="wifikey">8-20位，字母、数字、下划线</string>
+
+    <string name="delete">删除</string>
+
+    <string name="front">前</string>
+    <string name="back">后</string>
+    <string name="left">左</string>
+    <string name="right">右</string>
+    <string name="singnal_switch_title">信号频段</string>
+    <string name="fpv_switch_title">预览分辨率</string>
+    <string name="video_resolution">录像分辨率</string>
+    <string name="twogcs_note">提示</string>
+    <string name="twogcs_content">已有一台设备接入，请断开连接。</string>
+    <string name="share_note">请检查网络</string>
+    <string name="gesture_switch_title">手势切换</string>
+    <string name="left_hand">左手油门</string>
+    <string name="right_hand">右手油门</string>
+    <string name="timeout_content">连接已断开,请检查设备</string>
+    <string name="password_wrong">密码不能小于8位</string>
+    <string name="setting_wifi_hz_ok">切换成功,请重新连接</string>
+    <string name="setting_wifi_hz_erro">切换失败</string>
+
+    <string name="compass_succ">校准指南针完成</string>
+    <string name="compass_failed">校准指南针失败</string>
+    <string name="compass_v">请垂直校准</string>
+    <string name="compass_h">请水平校准</string>
+    <string name="network_connect">飞机已连接</string>
+
+    <string name="warning_0">云台报警</string>
+    <string name="warning_1">磁数据异常，请立即降落并校准指南针</string>
+    <string name="warning_1_land">磁数据异常，请校准指南针</string>
+    <string name="warning_2">电量低，请返航。</string>
+    <string name="warning_2_land">电量低</string>
+    <string name="warning_3">严重低电量，请更换电池！</string>
+    <string name="warning_4">GPS故障，请重启设备！</string>
+    <string name="warning_5">处于禁飞区，起飞被限制！</string>
+    <string name="warning_6">光流异常，请重启设备！</string>
+    <string name="warning_7">超声波故障。</string>
+    <string name="warning_8">气压计故障。</string>
+    <string name="warning_9">电调故障。</string>
+    <string name="warning_10">IMU异常，请重启</string>
+    <string name="warning_11">智能电池故障。</string>
+    <string name="warning_12">磁严重故障，请立即降落并联系售后</string>
+    <string name="warning_12_land">磁严重故障，请联系售后</string>
+    <string name="warning_13">内部存储器故障。</string>
+    <string name="warning_14">飞行器故障，请联系售后</string>
+    <string name="warning_17">IMU故障，请联系售后</string>
+    <string name="warning_18">IMU异常，请尝试轻拍飞机</string>
+    <string name="warning_19">GPS环境差，请在空旷处飞行。</string>
+    <string name="warning_20">未授权</string>
+    <string name="warning_21">振动大</string>
+    <string name="warning_22">温度高(飞机过热)</string>
+    <string name="warning_23">磁场环境差，请在空旷区域谨慎飞行</string>
+    <string name="warning_24">磁数据异常，请立即降落并校准指南针；如果校准之后再次触发该警报，请远离磁干扰区域到空旷处谨慎飞行。</string>
+    <string name="warning_land_24">磁数据异常，请校准指南针。如果校准之后再次触发该警报，请远离磁干扰区域到空旷地带谨慎飞行。</string>
+    <string name="warning_28">工厂试飞期间振动大(试飞时间要求>=30s)</string>
+    <string name="warning_29">请在室外GPS定位正常的情况下飞行。</string>
+    <string name="warning_30">请校准指南针</string>
+    <string name="warning_31">试飞时间不足20秒(试飞时间要求>=30s)</string>
+    <string name="warning_33">当前网络环境延时较大，请到空旷区域飞行</string>
+    <string name="warning_default">null</string>
+    <string name="execute_when_flying">请起飞后再执行该功能</string>
+    <string name="password_name_erro">Wi-Fi名称不能为空</string>
+    <string name="share_success">分享成功</string>
+    <string name="share_failed">分享失败</string>
+    <string name="share_cancel">取消分享</string>
+    <string name="takephoto_viberator">拍照振动</string>
+    <string name="takephoto_gestures">手势拍摄</string>
+    <string name="modify_wifi_func">修改Wi-Fi信息</string>
+    <string name="compass_modify">指南针校准</string>
+    <string name="please_wait">请稍等...</string>
+    <string name="wifi_name">Wi-Fi名称</string>
+    <string name="wifi_newname">新密码</string>
+    <string name="confirm">确定</string>
+    <string name="cancle">取消</string>
+    <string name="upload_confirm">确认上传</string>
+    <string name="upload_cancel">取消上传</string>
+    <string name="compass_info">将飞行器水平放置后，缓慢地旋转多圈，直至下一步。（转动过程中请保持飞行器状态灯保持常亮。否则，须重新执行该步骤）</string>
+    <string name="compass_start_info">开始</string>
+
+    <string name="update">更新</string>
+    <string name="update2">升级无人机固件</string>
+    <string name="flight_upgrade_alert4">无人机固件下载过程中损坏，请重新下载！</string>
+    <string name="flight_upgrade_net_alert">请确认已经连接到互联网</string>
+    <string name="flight_upgrade_net_alert2">请手动切换网络，连接飞机</string>
+    <string name="flight_upgrade_net_alert3">请手动切换网络到互联网，进入“设置->其他->飞控升级”页面，下载最新升级包</string>
+    <string name="flight_upgrade_net_alert4">请手动切换网络到互联网，进入“设置->其他->TAKE OS升级”页面，下载最新升级包</string>
+
+
+    <!--以下是程彬写的String-->
+    <string name="about">关于</string>
+    <!--关于UI-->
+    <string name="about_app_name">FlightGo</string>
+
+    <string name="sysUp">OS升级</string>
+    <string name="about_app_version_name">V20160422.1</string>
+    <string name="about_uav_name">飞机：</string>
+    <string name="about_uav_version">N/A</string>
+    <string name="app_version_update">APP版本更新</string>
+    <string name="uav_version_update">飞控升级</string>
+    <string name="malfuction_service">故障报修</string>
+    <string name="suggestion_feedback">意见反馈</string>
+    <string name="service_clause">服务条款</string>
+    <!--<string name="zerotech_copyright">Copyright © 2016 \n深圳市高巨创新科技开发有限公司 版权所有</string>-->
+    <string name="zerotech">高巨创新</string>
+    <!--APP更新-->
+    <string name="is_lastest_app_version">已是最新版本</string>
+    <string name="is_lastest_ota_version">更新包已下载，请连接飞机升级！</string>
+    <string name="battery_enough">升级时请保证电量80%以上</string>
+    <!--故障报修-->
+    <string name="email">电子邮箱:</string>
+    <string name="name">姓名:</string>
+    <string name="phone">联系电话:</string>
+    <string name="malfunction_describe">故障描述:</string>
+    <string name="select_air_type">选择飞机类型</string>
+    <string name="scan">浏览</string>
+    <string name="submit">提交</string>
+    <string name="submiting">提交中...</string>
+    <string name="submit_success">提交成功</string>
+    <string name="submit_fail">提交失败</string>
+    <string name="log_in">登录</string>
+    <string name="please_input_login_pwd">请输入登录密码</string>
+    <string name="please_input_pwd">请输入密码</string>
+    <string name="please_input_more_6_pwd">请输入6到16位密码</string>
+    <string name="fast_sign_up">快速注册</string>
+    <string name="retrive_pwd">找回密码</string>
+
+    <string name="next">下一步</string>
+    <string name="agree_zerotech_protocol_first">您必须同意高巨创新TAKE服务条款才能进行下一步操作</string>
+    <string name="send_verify_code_to">我们将发送验证码至：</string>
+    <string name="registed">已经注册</string>
+    <string name="resend">重新发送</string>
+    <string name="verify_code_wrong">验证码输入有误,请重新输入</string>
+
+    <string name="account_name">账户名</string>
+    <string name="verify_code">验证码</string>
+    <string name="please_input_verify_code">请输入验证码</string>
+    <string name="please_set_pwd">请设置密码</string>
+    <string name="pwd_regex">6-16位字符，字母、数字、特殊字符，区分大小写</string>
+    <string name="complete">完成</string>
+    <string name="un_login">未登录</string>
+    <string name="log_out">退出登录</string>
+
+    <string name="skip">跳过</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="nickname">昵称</string>
+    <string name="uploading">上传中...</string>
+    <string name="content_cannot_none">内容不能为空</string>
+    <string name="website">官网</string>
+    <!--以下程彬新加的0421-->
+    <string name="sending">发送中...</string>
+    <string name="send_fail">发送失败</string>
+    <string name="verify_success">验证成功</string>
+    <string name="sign_success">注册成功!</string>
+    <string name="sign_fail">注册失败</string>
+    <string name="conn_timeout">请检查网络</string>
+    <string name="logining">登录中...</string>
+    <string name="please_input_right_email">请输入正确的邮箱账号</string>
+    <string name="please_input_right_pwd">密码输入有误，请重新输入</string>
+
+    <!--以上程彬新加的0421-->
+
+    <!--以上是程彬写的String-->
+    <string name="compass_info_v">将飞行器机头垂直朝下，缓慢地旋转多圈，直至提示完成。（转动过程中请保持飞行器状态灯保持常亮。否则，须重新执行该步骤）</string>
+    <string name="photo">照片</string>
+    <string name="video">视频</string>
+    <string name="please_connect_uav">请连接飞机</string>
+    <string name="exit_app_info">确定退出应用？</string>
+    <string name="record_exit_confirm">正在录像，是否退出？</string>
+    <string name="nomore_note">不再提示</string>
+    <string name="close">关闭</string>
+    <string name="downloading">下载中...</string>
+    <string name="wifi_success">Wi-Fi修改成功,请重新选择连接</string>
+    <string name="wifi_failed">Wi-Fi修改失败</string>
+    <string name="rc_drone_connect_success">连接飞机成功，请重新连接遥控器</string>
+    <string name="rc_drone_connect_failed">连接失败，请重新连接</string>
+    <string name="storage_rest">剩余存储容量</string>
+    <string name="back_down">后台</string>
+
+    <string name="version_type_0">飞控版本</string>
+    <string name="version_type_1">内核版本</string>
+    <string name="version_type_2">CS版本</string>
+    <string name="version_type_3">CE版本</string>
+    <string name="version_type_4">超声波版本</string>
+    <string name="version_type_5">光流版本</string>
+    <string name="version_type_6">EIS版本</string>
+    <string name="version_type_7">FACE版本</string>
+    <string name="version_type_8">TRACKING</string>
+    <string name="setting_mode">模式</string>
+    <string name="setting_paras">参数</string>
+    <string name="setting_setting">设置</string>
+    <string name="single_photo">单拍</string>
+    <string name="multi_photo">连拍</string>
+    <string name="white_balance">白平衡</string>
+
+    <!--白平衡 -->
+    <string name="auto">自动</string>
+    <string name="white_balance_cloudy">阴天</string>
+    <string name="white_balance_fluorescent">荧光灯</string>
+    <string name="white_balance_incandescent">白炽灯</string>
+    <string name="white_balance_warm_fluorescent">暖色荧光灯</string>
+    <string name="white_balance_daylight">晴天</string>
+    <string name="white_balance_twilight">傍晚</string>
+    <string name="white_balance_shade">阴影</string>
+
+    <string name="start_track">开启跟踪</string>
+    <string name="net_unconn">网络未连接</string>
+    <string name="back_sign_tips">点击\"返回\"将中断注册，是否返回？</string>
+    <string name="back_retrieve_pwd_tips">点击\"返回\"将中断找回密码，是否返回？</string>
+
+    <string name="start_tracker">开始追踪</string>
+    <string name="stop_tracker">停止追踪</string>
+    <string name="retanle">角度</string>
+    <string name="short_video_angle">稳像</string>
+    <string name="angle">镜头角度</string>
+    <string name="pause">暂停</string>
+    <string name="photo_timeout">拍照超时</string>
+    <string name="io_error">文件系统读写错误</string>
+    <string name="storage_full">存储空间满</string>
+    <string name="correct_error">文件校准失败,请重新下载</string>
+    <string name="photo_hw_erro">硬件错误</string>
+    <string name="photo_device_erro">相机未打开</string>
+    <string name="in_video_progress">拍照/录像中</string>
+    <string name="video_not_start">录像未开始</string>
+    <string name="gcsfc_recording">GCS/FC录像中</string>
+
+
+    <string name="code_dated">验证码过期，请重新获取</string>
+    <string name="code_wrong">您输入的验证码有误，请重新输入</string>
+
+    <string name="signal_swicth_note">如果您的手机不支持5GHz频段，切换之后会导致您的手机无法连接飞机。\n确定要切换？</string>
+>
+    <string name="account_or_pwd_wrong">账号或密码有误，请重新输入</string>
+
+    <string name="tips_pp_new">确定要起飞？</string>
+
+    <string name="retrive_input_verify_code">请输入四位数字验证码</string>
+    <string name="get_code_success">获取成功</string>
+    <string name="get_code_fail">获取失败</string>
+
+    <string name="modify_pwd_fail">修改密码失败,请稍后再试</string>
+    <string name="please_input_616_pwd">请输入6到16位密码</string>
+
+    <string name="set_gesture_success">设置成功</string>
+
+    <string name="gz_input_device">请选择要报修的无人机</string>
+    <string name="gz_input_email">请输入正确的邮箱账号</string>
+    <string name="gz_input_name">请输入姓名</string>
+    <string name="gz_input_phone">请输入联系电话</string>
+    <string name="gz_input_uav_sn">请输入飞机序列号(SN)</string>
+    <string name="gz_info">请输入故障描述信息</string>
+    <string name="gz_submit_success">提交成功</string>
+
+
+    <string name="net_erro">网络出错</string>
+    <string name="cichang_note">请先将机臂展开再开始校准</string>
+    <string name="ikonw">我知道了</string>
+    <string name="unlogin_please_login">您还未登录，请先登录</string>
+    <string name="fly_control_mode">控制模式</string>
+    <string name="fly_control_sensor">体感</string>
+
+    <string name="video_share_mobile_net_tips">当前处于3G/4G移动网络下，上传视频将会产生流量资费，建议切换到Wi-Fi网络。</string>
+    <string name="video_share_unlogin_tips">您尚未登录，请先登录。</string>
+    <string name="video_share_download_first">请先下载视频。</string>
+    <string name="video_share_only_one">一次只能上传一个视频</string>
+    <string name="app_update_mobile_net_tips">当前处于3G/4G移动网络下，下载视频将会产生流量资费，建议切换到Wi-Fi网络。</string>
+
+    <string name="checking">检查中</string>
+
+    <string name="update_status_check">内存已满,无法升级</string>
+    <string name="update_status">请等待飞机自动关机，关机后请手动重启飞机进行系统更新，更新期间请不要断电。\r\n全部更新完成后，飞机将再次自动关机。</string>
+    <string name="update_failed">升级失败</string>
+    <string name="network_status_check">当前使用数据流量,是否下载?</string>
+    <string name="iso_setting">ISO</string>
+    <string name="ev_setting">EV</string>
+
+    <string name="legend">图例说明</string>
+    <string name="phone_storage_full">手机存储已满,下载失败</string>
+    <string name="takephoto_mute">应用静音</string>
+
+    <string name="alert_info_unLoca">未定位</string>
+    <string name="alert_info_optiflow">光流定位</string>
+    <string name="alert_info_ungps">GPS定位中，请置于空旷地带</string>
+    <string name="alert_info_gps">GPS已定位</string>
+    <string name="alert_info_flynet">断开连接</string>
+
+    <string-array name="deletepicfromwhere">
+        <item>从飞机上删除</item>
+        <item>从手机上删除</item>
+    </string-array>
+
+
+    <string name="uav_head">自拍</string>
+    <string name="uav_tail">取景</string>
+
+
+    <string name="force_update_ota_tips">发现新的TAKE OS版本，请更新</string>
+
+    <string name="turn_over_tips">请高于1.5米后再进行空翻，空翻时候飞机下方严禁站人。</string>
+    <string name="turn_over_tips_outside">请高于2米后再进行空翻，空翻时候飞机下方严禁站人。</string>
+
+    <string name="drone_storage_full">飞机存储已满</string>
+
+    <string name="video_share_no_select">请选择要分享的视频，一次只能分享一个视频。</string>
+
+    <string name="video_share_upload">上传</string>
+    <string name="app_download">下载</string>
+    <string name="first_download_pic">请等待图片下载完成</string>
+    <string name="no_download_pic">图片未下载完成</string>
+    <string name="flycontrolvoltage_low">电压低，无法空翻</string>
+    <string name="advance_face_note">请手动将摄像头角度调整到0度。</string>
+    <string name="advance_gestrue_note">请手动将摄像头角度调整到0度。</string>
+    <string name="draw_target_rect">请框选跟踪的目标</string>
+    <string name="start_eis">开启稳像</string>
+    <string name="stop_eis">关闭稳像</string>
+    <string name="rocker_fly">摇杆</string>
+    <string name="safety_rocker_fly">安全摇杆</string>
+    <string name="video_download_erro">视频下载失败,请检查网络</string>
+    <string name="video_download_above_300m">视频大小超过300m,请连接数据线下载</string>
+    <string name="pic_download_erro">图片下载失败,请检查网络</string>
+    <string name="install_pdf_reader">请安装PDF阅读器</string>
+    <string name="tarck_condition_1">请将飞机高度升高到3米后再开启该功能。</string>
+    <string name="tarck_condition_2">请在GPS星数达到8颗后再开启该功能。</string>
+    <string name="tarck_condition_3">请在飞机高度达到3米且GPS星数达到8颗后再开启该功能。</string>
+    <string name="language_choice_txt">多语言环境</string>
+    <string name="language_chinese">简体中文</string>
+    <string name="language_english">English</string>
+    <string name="language_japanese">日本の</string>
+    <string name="language_korean">한국의</string>
+    <string name="language_taiwan">臺灣繁體</string>
+    <string name="language_hongkong">香港繁體</string>
+    <string name="language_france">Français</string>
+    <string name="language_change">更改</string>
+    <string name="language_Text">您要将APP语言更改为%s吗? 更改后请重新启动APP。</string>
+    <!--<string name="language_Text">您要将APP语言更改为%s吗? </string>-->
+
+    <string name="wifi_ssid_regex_wrong_tips">Wi-Fi的SSID要求为字母、数字、下划线和减号</string>
+    <string name="wifi_pwd_regex_wrong_tips">Wi-Fi的密码的输入要求为字母、数字、下划线</string>
+
+    <string name="uav_sn">飞机序列号(SN)：</string>
+    <string name="register_email_length_tips">3~30位字符。</string>
+
+    <string name="turnover_on_ground_tips">请先起飞后再空翻</string>
+
+    <string name="hj_upload_tv">近期的飞行记录将会被上传</string>
+    <string name="advance_target_use_note">请在空旷的环境下使用该功能。</string>
+
+    <string name="tv_outdoor">室外飞行</string>
+    <string name="optical_note">光流定位环境差，安全考虑请将落。</string>
+    <string name="ornotinterruptvideo">录像进行中, 切换Wi-Fi将中断与飞机连接，是否继续？</string>
+
+    <string name="tv_fore_stop">紧急停机键</string>
+    <string name="tv_fore_stop_desription">滑动至深红区域时，TAKE会紧急制动。</string>
+    <string name="tv_note">(在紧急情况下使用，请注意安全)</string>
+
+    <string name="save">保存</string>
+    <string name="ornotinterruptvideo_signal">录像进行中，切换频段将中断与飞机连接。是否继续？</string>
+    <string name="ornotinterruptvideo_wifi">录像进行中，修改Wi-Fi名和密码将中断与飞机连接。是否继续？</string>
+    <string name="ornotinterruptvideo_forceupdate">升级时飞机会重启，当前进行中的录像在重启之后将会损坏且无法下载。是否停止录像？</string>
+    <string name="stop_video">停止录像</string>
+    <string name="goon_video">继续录像</string>
+    <string name="stop_record">停止记录</string>
+    <string name="gps_data_refresh_finish">GPS信息更新完成</string>
+    <!--  <string name="gps_outdate_note">GPS信息文件已经过期，请下载更新</string>-->
+    <string name="touchdown_hand_warn">请勿手接</string>
+    <string name="touchdown_hand_text">已切换至地面降落</string>
+    <string name="optical_land_note">光流定位环境差，飞机即将降落</string>
+
+    <string name="imu_preparing">飞机起飞准备中，请稍后再次点击起飞按钮（多次点击无效，请重启飞机）</string>
+
+    <string name="low_battery_no_takeoff">电量低，无法起飞。</string>
+    <string name="gpsdata_isrefreshing">GPS数据更新中...</string>
+    <string name="go_back_title">确定要返航？ </string>
+    <string name="go_back_text">返航过程中请确保飞机当前位置与回家点之间没有障碍物。</string>
+
+
+    <string name="register_agree_zerotech_clause1">同意用户</string>
+    <string name="register_agree_zerotech_clause2">服务条款</string>
+    <string name="register_input_account_tips">请输入邮箱/手机号（仅中国大陆）</string>
+    <string name="please_input_valid_account_tips">请输入正确的邮箱/手机号</string>
+    <string name="account_unregister_tips">该邮箱/手机号尚未注册，请先注册</string>
+    <string name="input_verify_code_tips">请输入验证码</string>
+    <string name="face_title">注意</string>
+  <string name="usefacetracker_note">该功能仅供娱乐，使用时存在一定的危险性，请勿在人群密集的地方飞行。使用该功能时人脸与飞机请保持2米以上的距离，切勿离飞机太近。当人脸追踪功能受到某些影响而退出追踪时，请与飞行中的飞机保持2米以上的距离，以免造成身体上的损伤。
+\r\n确认要开启人脸追踪功能吗？</string>
+    <string name="target_lost">目标丢失</string>
+
+
+    <string name="orbit_start">拍摄</string>
+    <string name="orbit_stop">退出</string>
+    <string name="orbit_pull_to_blue_area">拖动飞机至蓝色区域</string>
+    <string name="orbit_adjust_camera_angle">请在室外GPS定位成功后开启该功能，开启该功能时请保持飞机悬停；该悬停点即为环绕圆心点。</string>
+    <string name="orbit_gps_no_location">GPS定位不成功。</string>
+    <string name="orbit_altitude">高度</string>
+    <string name="orbit_radius">半径</string>
+    <string name="orbit_set_center_fail_tips">确定圆心点失败，请重试。</string>
+
+    <!-- 新增的字串 -->
+    <string name="upgrade_upload_failed">上传升级包失败</string>
+    <string name="open_location_function">请打开定位功能</string>
+    <string name="fly_times">飞行次数</string>
+    <string name="edit_photo_backgroud">修改头像或背景</string>
+    <string name="choose_sex">选择性别</string>
+    <string name="local_gallary">本地相册</string>
+    <string name="publish">发布</string>
+    <string name="image_crop">图像裁剪</string>
+    <string name="settings">设置</string>
+    <string name="fans">粉丝</string>
+    <string name="start_use">开始使用</string>
+    <string name="unfollow">取消关注</string>
+    <string name="remove_fans">移除粉丝</string>
+    <string name="all_image">所有图片</string>
+    <string name="take_picture">拍照</string>
+    <string name="sdcard_avalible">SDCard卡是否可用:</string>
+    <string name="finish">完成</string>
+    <string name="follow_unfollow">关注/取消</string>
+    <string name="follow">关注</string>
+    <string name="select_from_gallary">从相册选择</string>
+    <string name="storage_size">手机存储总空间:</string>
+    <string name="avilable_storage_size">手机存储剩余空间:</string>
+    <string name="gsp_satellite_count">GPS星数</string>
+    <string name="gps_x">GPS经度</string>
+    <string name="gps_y">GPS纬度</string>
+    <string name="login_regesiter">登录/注册</string>
+    <string name="cancel">取消</string>
+    <string name="secrecy">保密</string>
+    <string name="sum_times">总次数</string>
+    <string name="logout">退出</string>
+    <string name="good">赞</string>
+    <string name="get_sum_storage_size">获取SDCARD总的存储空间:</string>
+    <string name="get_left_storage_size">获取SDCARD剩余存储空间:</string>
+    <string name="temperature">温度</string>
+    <string name="share_moment">为您的精彩分享添加一段话吧</string>
+    <string name="version_type">版本类型</string>
+    <string name="course_angle">航向角</string>
+    <string name="distance_from_takeoff">离起飞点距离</string>
+    <string name="fly_height">飞行高度</string>
+    <string name="fly_status">飞行状态</string>
+    <string name="fly_time">飞行时间</string>
+    <string name="fly_voltage">飞控电压</string>
+    <string name="vibration_coefficient">振动系数</string>
+    <string name="shaking_coefficient">晃动系数</string>
+    <string name="left_right">左右</string>
+    <string name="before_after">前后</string>
+    <string name="rotate">旋转</string>
+    <string name="up_down">上下</string>
+
+    <string name="picture_preview_fail">图片加载失败</string>
+    <string name="crop_image_complete">完成</string>
+    <string name="crop_image_title">图像裁剪</string>
+
+    <string name="weixin">微信</string>
+    <string name="friend_circle">朋友圈</string>
+    <string name="xinlang">新浪</string>
+
+    <string name="mine">我的</string>
+    <string name="str_alert">通知</string>
+    <string name="str_system_alert">系统通知：</string>
+    <string name="str_clear">清空</string>
+    <string name="str_focused">已关注</string>
+    <string name="please_select_video">请选择视频</string>
+    <string name="str_focus">关注</string>
+    <string name="str_report">举报</string>
+    <string name="str_comment">评论</string>
+    <string name="select_shield">屏蔽</string>
+    <string name="str_send">发送</string>
+    <string name="str_comment_content">请输入评论内容</string>
+    <string name="str_commentList_empty">暂无评论内容</string>
+    <string name="str_loading">加载中...</string>
+    <string name="str_pull_refresh">下拉刷新</string>
+    <string name="str_free_refresh">释放刷新</string>
+    <string name="str_load_again">重新加载</string>
+    <string name="str_load_empty">没有数据</string>
+    <string name="str_no_internet">无网络连接</string>
+    <string name="str_login_out">登录信息过期，请重新登录</string>
+    <string name="str_upload_progress">上传中 ...</string>
+    <string name="str_upload_current_progress">上传中 ...%d%%</string>
+    <string name="str_delete_message">删除</string>
+    <string name="str_please_select_image">请选择照片</string>
+    <string name="data_exception">数据异常</string>
+    <string name="str_vurl_error">获取地址失败</string>
+    <string name="old_password">原密码：</string>
+    <string name="new_password">新密码：</string>
+    <string name="repeat_new_password">重复新密码：</string>
+    <string name="reset_password">修改密码</string>
+    <string name="null_password">密码不能为空</string>
+    <string name="atypism_password">新密码与确认密码不相同</string>
+    <string name="media_size">您上传的内容大于50MB，确定上传?</string>
+    <string name="image_out_size">发送的文件大小不能超过20MB</string>
+    <string name="media_out_size">您上传内容过大，请编辑后上传。</string>
+    <string name="all_video">所有视频</string>
+    <string name="clear_cache">清除App数据缓存</string>
+    <string name="crop_save_photo">正在保存照片</string>
+    <string name="common_click_reload">重新下载</string>
+    <string name="common_end">没有更多数据</string>
+    <string name="common_loading">加载中...</string>
+    <string name="common_no_data">没有数据</string>
+    <string name="common_no_data_temp">暂无数据</string>
+    <string name="common_retry">重试</string>
+    <string name="delete_failed">无法删除</string>
+    <string name="deleted">删除成功</string>
+    <string name="isay">我说：</string>
+    <string name="load_again">重新下载</string>
+    <string name="load_fail">下载失败</string>
+    <string name="loading_">下载中</string>
+    <string name="verify_code_send_sucess">验证码已发送</string>
+    <string name="str_delete">删除</string>
+    <string name="nonet_tipe">没有连接</string>
+    <string name="not_support_face">不支持表情符号</string>
+    <string name="orbit_hover_tip">请悬停后再使用该功能</string>
+    <string name="no_facebook">未安装Facebook客户端</string>
+    <string name="share_video_title">TAKE无人机</string>
+    <string name="share_video_content">精彩视频分享</string>
+
+
+    <string name="battery_low_when_photoing_tips">电量低！！！，飞机即将自动关机！未停止的录像将会损坏且不能下载，是否停止录像？</string>
+
+
+  <string name="orbit_battery_low_tips">当前电量低于10%，无法开启环绕飞行功能。</string>
+  <string name="targe_battery_low_tips">当前电量低于10%，无法开启跟踪功能。</string>
+    <string name="same_password">新密码与旧密码相同</string>
+
+    <string name="signal_swicth_hznote">你知道吗？2.4G频段是使用率非常高的频段！使用率高的频段有信号干扰严重，信息堵塞等问题，对你的TAKE信号产生干扰，导致控制的延迟，甚至坠机！确认要切换吗？</string>
+    <string name="error_file_deleted">文件不存在, 或已被删除</string>
+    <string name="video_upload_success_tips">后台转码中，请耐心等待，稍后请刷新。</string>
+
+    <string name="hj_none">该手机没有航迹文件，无法上传</string>
+    <string name="myzero_title_default">我的</string>
+    <string name="myzero_function_item_praise">赞</string>
+    <string name="myzero_function_item_fans">粉丝</string>
+    <string name="myzero_function_item_attention">关注</string>
+
+    <string name="myzero_module_navigation_title_myfans">我的粉丝</string>
+    <string name="myzero_module_navigation_title_mydata">个人信息</string>
+    <string name="myzero_module_navigation_mydata_rightTxt">保存</string>
+    <string name="myzero_action_save_success">保存成功</string>
+    <string name="myzero_action_save_fail">保存失败</string>
+    <string name="myzero_nickname_not_null">昵称不能为空!</string>
+    <string name="input_illegal_letter_tips">请勿输入特殊字符</string>
+    <string name="myzero_getphoto_title_bg">更换背景图</string>
+    <string name="myzero_getphoto_title_head">更换头像</string>
+    <string name="myzero_mydata_nickname_title">昵称</string>
+    <string name="myzero_mydata_sex_title">性别</string>
+    <string name="myzero_mydata_real_name_title">真实姓名</string>
+    <string name="myzero_mydata_real_name_hint">请输入您的姓名</string>
+    <string name="myzero_mydata_address_title">地址</string>
+
+    <string name="myzero_module_navigation_title_other_room">他（她）的空间</string>
+    <string name="image_crop_save_action_tips">正在保存图片，请稍后...</string>
+    <string name="setting_dialog_login_out_body">您确定要退出登录吗？</string>
+    <string name="setting_login_out_ok">已退出</string>
+    <string name="setting_dialog_clear_cache_body">您确定要清空缓存吗?</string>
+    <string name="setting_clear_cache_ok">清除成功</string>
+
+    <string name="loggin_first_bottom_tips">登录后可查看发布的作品</string>
+    <string name="myzero_no_published_media_tips">快去发布属于您的作品吧</string>
+    <string name="myzero_attention_status_hasattention">已关注</string>
+    <string name="myzero_attention_status_noattention">关注</string>
+
+    <string name="sms_overtime_tips3">超过验证码发送次数，请24小时之后再尝试</string>
+    <string name="blackphone_wifihz_note">飞机开机情况下，如手机搜索不到飞机Wi-Fi，请戳住飞机Wi-Fi复位孔3秒。</string>
+
+    <string name="error_not_take_off">飞机有故障，无法起飞</string>
+    <string name="wifi4g_share_wechat">分享至微信时需断开飞机连接</string>
+    <string name="wifi4g_share_qq">分享至QQ时需断开飞机连接</string>
+    <string name="wifi4g_share_sina">分享至新浪时需断开飞机连接</string>
+
+    <string name="how_to_power_on">如何开启TAKE？</string>
+    <string name="three_seconds_to_fly">长按开机键3秒钟，启动TAKE。\n如果想要关闭TAKE，也是长按开机键3秒钟</string>
+    <string name="how_link_dobby_wifi">如何连接TAKE的Wi-Fi</string>
+    <string name="dobby_wifi_problem">如果Wi-Fi出现问题</string>
+    <string name="dobby_wifi_init">可使用复位针初始化Wi-Fi</string>
+    <string name="dobby_wifi_name">查找机身的Wi-Fi名称，默认Wi-Fi密码是zerotech</string>
+    <string name="dobby_wifi_can_fly">手机连接该Wi-Fi，就可以操作TAKE了！</string>
+    <string name="dobby_fly_mode">TAKE飞行操控方式</string>
+    <string name="dobby_fly_default_mode">TAKE默认操作模式为安全摇杆模式</string>
+    <string name="sensor_mode_circle">安全摇杆模式时：点击屏幕右半屏幕摇杆时</string>
+    <string name="dobby_can_fly_direct">TAKE会做同方向的飞行</string>
+    <string name="sendor_mode_up_down">安全摇杆模式时：点击左半屏幕上下键，飞机上升下降</string>
+    <string name="sendor_mode_left_right">点击左右键时飞机左右旋转</string>
+    <string name="how_dobby_fly">TAKE如何起飞</string>
+    <string name="link_can_fly">连接好TAKE后进行起飞</string>
+    <string name="click_fly_btn">点击屏幕起飞按键</string>
+    <string name="dobby_can_fly_then">TAKE即可飞行</string>
+    <string name="click_toke_off_btn">点击屏幕降落按键</string>
+    <string name="choose_toke_off_mode">即可选择TAKE降落方式</string>
+    <string name="dobby_tips">TAKE使用小技巧</string>
+    <string name="voice_can_photo">手机音量键也可以拍照哦</string>
+    <string name="click_to_go_to">点击操作界面Wi-Fi图标可以直接跳转到</string>
+    <string name="to_to_wifi">手机无线局域网界面</string>
+    <string name="fly_contiton">TAKE平稳飞行条件</string>
+    <string name="city_not_same">由于地理差异</string>
+    <string name="calibrate_first">建议起飞前先校准指南针</string>
+    <string name="dobby_afriad">TAKE要远离的干扰源</string>
+    <string name="dobby_structure">钢架结构</string>
+    <string name="ci_tie">磁铁及天然磁铁矿</string>
+    <string name="protect_for_you">为您护航</string>
+    <string name="tel_us">在使用过程中如有疑问可拨打服务电话</string>
+    <string name="start_fly">开始飞行</string>
+    <!--手机验证码输入框默认显示的字-->
+    <string name="verfiy_code_edittext_hit">请输入右图的字符</string>
+    <string name="no_weixin">未安装微信</string>
+    <string name="no_qq">未安装QQ</string>
+
+    <string name="how_to_connect">如何连接</string>
+
+    <string name="share_to">分享</string>
+    <string name="facetrack_exit_confirm">正在人脸追踪，是否退出？</string>
+    <string name="takephoto_exit_confirm">正在拍照，是否退出？</string>
+    <string name="quit_devices">请降落飞机后再退出</string>
+    <string name="upload_again">重新上传</string>
+    <string name="video_uploading">视频上传中%1$s，请勿退出APP</string>
+    <string name="v_upload_limit">抱歉：普通分享最大支持50MB视频</string>
+    <string name="v_share_content">体验时空的流动</string>
+    <string name="pop_shortvideo_note">拖动并锁定快门按键可以解放双手</string>
+    <string name="file_has_downloaded">文件已下载</string>
+
+
+    <string name="upload_failed">上传失败</string>
+    <string name="video_is_processing">视频处理中 %1$s</string>
+
+    <string name="str_eis">稳像</string>
+    <string name="choose_angle">选择镜头角度</string>
+    <string name="delayphoto">延时拍照</string>
+
+
+    <string name="orbit_guide1_title_new">使用环境及使用须知</string>
+  <string name="orbit_guide2_title_new">第一步：设定半径及高度</string>
+  <string name="orbit_guide3_title_new">第二步：设定圆心</string>
+  <string name="orbit_guide4_title_new">第三步：环绕飞行</string>
+
+  <string name="orbit_guide1_content_new">在使用该功能时，请确保周围区域开阔，没有遮挡物。\r\n在使用该功能时确保飞机在室外且GPS已经定位成功。</string>
+  <string name="orbit_guide2_content_new">将飞机飞到自己的前方，镜头对准自己，调整好飞机的高度H和距离R（R＞3m）。此时的距离和高度即为飞机环绕的半径和高度。</string>
+  <string name="orbit_guide3_content_new">在屏幕中框选自己，飞机会自动将目标锁定，并以目标点作为环绕圆心点。锁定后点击选框，飞机开始测距。测距完成后，进入环绕飞行操作界面。</string>
+  <string name="orbit_guide4_content_new">点击“向左环绕”或“向右环绕”按键，飞机即可环绕圆心点飞行，飞行360°之后飞机悬停，环绕不足360°再次点击，飞机立即悬停。点击屏幕下方红色按键可以退出环绕飞行模式。</string>
+
+  <string name="orbit_mode_gps">GPS定位环绕</string>
+  <string name="orbit_mode_track">目标跟踪环绕</string>
+
+    <string name="orbit_camera_angle">摄像头角度</string>
+
+    <string name="orbit_guide1_title">环境及使用须知</string>
+    <string name="orbit_guide2_title">第一步：设定圆心</string>
+    <string name="orbit_guide3_title">第二步：设定半径和高度</string>
+    <string name="orbit_guide4_title">第三步：环绕飞行</string>
+
+    <string name="orbit_guide1_content">在使用该功能前，请确保周围区域开阔，没有遮挡物。\r\n在使用该功能时确保飞机在室外且GPS已经定位。</string>
+    <string name="orbit_guide2_content">将飞机飞到想要环绕的点悬停，并调整好高度。点击APP左下角菜单中的环绕飞行图标开启环绕飞行功能，此时飞机悬停的点即为环绕飞行的圆心点。</string>
+    <string name="orbit_guide3_content">在APP上点击下一步，拖动左下角的飞机图标到蓝色区域。蓝色区域的横边为环绕半径，竖边为环绕高度，环绕半径为相对圆心的距离，高度为相对地面的高度。调整好环绕的半径和高度之后，飞机即将飞往目标点。当飞机飞到目标点时，点击屏幕下方的\“拍摄\”。</string>
+    <string name="orbit_guide4_content">点击\“向左环绕\”或\“向右环绕\”按键，飞机即可环绕圆心点飞行。飞行360°之后飞机悬停。环绕不足360°停止，飞机立即悬停。点击屏幕下方的红色按键可以退出环绕飞行模式。</string>
+
+    <string name="measuring_distance_more_than_10">环绕目标距离过远（&#062;10米），请重新选择目标</string>
+    <string name="measuring_distance_less_3">环绕目标距离过近（&#060;3米），请重新选择目标</string>
+    <string name="measuring_distance_tips">正在测距中，请勿移动目标物</string>
+    <string name="target_lost_tips">目标丢失，请重新开始</string>
+
+    <string name="dont_permit_swicthsingnale">当前国家不支持频段切换</string>
+
+    <string name="ota_need_update">无人机系统有重要更新，请升级</string>
+    <string name="ota_update">升级</string>
+    <string name="ota_latest_version">最新版本</string>
+    <string name="ota_current_version">当前版本</string>
+    <string name="ota_download_file">下载文件</string>
+    <string name="ota_install_file">安装文件</string>
+    <string name="ota_downloading_file">文件下载中，请勿退出</string>
+    <string name="ota_downloading_again">下载中断，请重新下载</string>
+    <string name="ota_back_exit_update">退出后，升级流程将中断</string>
+    <string name="ota_connect_dobby_wifi">请连接飞机wifi，连接成功后将自动上传升级文件</string>
+    <string name="ota_aoto_power_off">文件安装中，请勿退出APP或断开与飞机的连接，飞机完成升级后将自动关机</string>
+    <string name="ota_upload_fail_checkwifi">上传失败，检查飞机WI-Fi连接</string>
+    <string name="ota_two_restart_tips">飞机升级过程中要重启两次，当飞机自动关机后需要手动开机继续升级过程</string>
+
+
+
+       <string name="take_photos_control">拍摄控制</string>
+    <string name="tail_to_self">当机尾对着自己时，摄像头已经开始取景模式</string>
+    <string name="head_to_self">当机头对着自己时，摄像头已经开始自拍模式</string>
+    <string name="american_operator">美国手</string>
+    <string name="left_stick">左摇杆</string>
+    <string name="ascend_descend">上升／下降</string>
+    <string name="turn_left_right">左旋／右旋</string>
+    <string name="right_stick">右摇杆</string>
+    <string name="forward_backward">前进／后退</string>
+    <string name="leftward_rightward">向左飞／向右飞</string>
+    <string name="japanese_operator">日本手</string>
+    <string name="sensor_tips1">按住屏幕出现的白色圆形，同时保持手机水平。</string>
+    <string name="sensor_tips2">手机向一侧倾斜时，飞机会向同方向移动。</string>
+    <string name="conn_setting">连接设置</string>
+    <string name="others">其他</string>
+
+
+
+
+    <string name="ota_install_complete">安装完成</string>
+    <string name="ota_please_check_internet">当前无可用网络，请检查网络设置</string>
+    <string name="ota_file_wrong">升级文件下载过程中损坏，请重新下载！</string>
+    <string name="network_404">轻触屏幕重试</string>
+
+    <!--剪辑 start-->
+    <string name="none">无</string>
+    <string name="edit">编辑</string>
+    <string name="return_string">返回</string>
+    <!--剪辑 end-->
+
+    <!-- 工厂测试版本用-->
+    <string name="hd_x">晃动系数： 俯仰 %1$d,</string>
+    <string name="hd_y">横滚 %1$d,</string>
+    <string name="hd_z">航向 %1$d</string>
+    <string name="hd_fw_x">晃动范围： 俯仰 %1$d,</string>
+    <string name="hd_fw_y">横滚 %1$d,</string>
+    <string name="hd_fw_z">航向 %1$d</string>
+    <string name="zd_fw">震动范围 %1$d</string>
+    <string name="fly_info_clear">清除数据</string>
+    <string name="fly_info_clear_succ">清除数据成功</string>
+    <string name="fly_info_clear_fail">清除数据失败</string>
+    <string name="fly_info_on">隐藏</string>
+    <string name="fly_info_off">显示</string>
+
+    <string name="me_str">我</string>
+    <string name="reply_str">回复</string>
+    <string name="look_origin_pic">查看原图</string>
+    <string name="turn_over_confirm_tips">使用一键空翻功能的时候，飞机不可以佩戴护桨。确定要空翻？</string>
+    <string name="current_mode_not_turnover">当前模式下不能使用一键空翻</string>
+    <string name="turnover_checkfly_time">该功能需要累积飞行时间超过10小时才可以使用。\r\n当前累积飞行时间为：%1$s小时。</string>
+    <string name="access_forbid_fly_area_100">即将进入禁飞区域，当前距离禁飞区域100米。是否返航？</string>
+    <string name="already_in_forbid_fly_area100">当前距离禁飞区域%1$d米。是否起飞？</string>
+    <string name="warning_34">距离禁飞区%1$d米</string>
+    <string name="take_off">起飞</string>
+    <string name="go_back">返航</string>
+    <string name="turn_over_tips_outside_8">当前高度大于8米，一键空翻功能不可用</string>
+
+    <string name="local_low">飞行前建议您了解当地政策</string>
+    <string name="feedback_hint">请描述您的反馈内容，我们第一时间给到您回复。</string>
+    <string name="rb_product_pro">产品问题</string>
+    <string name="rb_product_sugest">产品建议</string>
+    <string name="rb_app_sugest">软件建议</string>
+    <string name="feedback_type">选择反馈类型</string>
+    <string name="feedback_contact">请输入您的联系方式</string>
+
+    <string name="reset_ps_input_old_ps">输入6-16位密码</string>
+    <string name="reset_ps_input_new_ps">输入当前密码</string>
+    <string name="reset_ps_reinput_ps">重新输入新密码</string>
+
+    <string name="alert_take_off_compass">电子罗盘校准失败，请完成校准，否则无法起飞</string>
+    <string name="myzero_mydata_telephone_title">账号</string>
+
+    <string name="low_battery_back_title">低电量返航</string>
+    <string name="low_battery_back_content">飞机电量过低是否开启返航？\n%1$ds后自动启动返航</string>
+    <string name="low_battery_back_ok">立即返航</string>
+
+    <string name="setting_device_hight">高度</string>
+    <string name="setting_flydistance">距离</string>
+    <string name="setting_device_speed">速度</string>
+    <string name="setting_device_back_hight">返航高度</string>
+    <string name="setting_device_naviget_light">导航灯</string>
+    <string name="setting_modify_rc_wifi">修改遥控器Wi-Fi信息</string>
+    <string name="setting_modify_drone_wifi">修改飞机Wi-Fi信息</string>
+    <string name="setting_connect_rc_wifi">遥控器连接无人机</string>
+    <string name="setting_fly_control">飞行控制</string>
+    <string name="Setting_Connect_To">%1$s</string>
+    <string name="Setting_wifi_pw">密码</string>
+    <string name="Setting_wifi_other">其他网络</string>
+    <string name="Setting_wifi_other2">加入到其他网络</string>
+    <string name="Setting_RecordingNow_ModifyingWiFiSSID">录像进行中，修改Wi-Fi名和密码将中断与飞机连接。是否继续？</string>
+    <string name="ftp_restart_tips">请重新启动飞机</string>
+    <string name="ftp_redownload_tips">升级包不匹配，请重新下载</string>
+    <string name="force_update_ftp_tips">发现新的飞控版本，请更新</string>
+    <string name="ota_wifi_please_tips">建议在连接Wi-Fi的情况下升级</string>
+    <string name="check_take_control">已连接了Take，是否切换到对应的控制界面？</string>
+    <string name="check_hesper_control">已连接了Hesper，是否切换到对应的控制界面？</string>
+    <string name="check">切换</string>
+    <string name="malfunction_type">请选择要报修的无人机</string>
+
+    <string name="force_update_rcftp_tips">发现新的遥控器版本，请更新</string>
+    <string name="message">消息</string>
+    <string name="rc_ftp_restart_tips">请重新启动遥控器</string>
+    <string name="rc_ftp_upgrade_failed">遥控器升级失败</string>
+    <string name="rc_wifilist_connect">已连接</string>
+    <string name="ota_connect_rc_wifi">请连接遥控器 Wi-Fi，连接成功后将自动上传升级文件</string>
+    <string name="ota_rc_aoto_power_off">文件安装中，请勿退出APP或断开与遥控器的连接，遥控器完成升级后将自动关机</string>
+    <string name="setting_distance_limit">20-800m,0无限制.</string>
+    <string name="remote_control_upgrade">遥控器升级</string>
+
+    <string name="map_flat">平面地图</string>
+    <string name="map_satellite">卫星地图</string>
+    <string name="map_location_mobile">手机位置</string>
+    <string name="map_location_drone">飞机位置</string>
+
+    <string name="calibrate">校准</string>
+    <string name="calibrate_rc">遥控器校准</string>
+    <string name="start_calibrate">开始校准</string>
+    <string name="calibrate_complete">校准完成</string>
+    <string name="calibrate_again">重新校准</string>
+    <string name="turnoff_drone">1.校准遥控器前请关闭无人机</string>
+    <string name="isexit_calibrate">2.中途退出遥控器校准会极大可能导致校准失败</string>
+    <string name="please_reference_calibrate">3.请参考校准过程中的提示进行校准操作</string>
+    <string name="calibration_no_comlleted">校准尚未完成，退出则遥控器有短暂时间（20秒-30秒）不可用，是否退出</string>
+    <string name="keep_still">保持遥控器不动，直至第二个灯亮起</string>
+    <string name="keep_staicks">保持遥控器滚轮、摇杆处于中位，直至第三个灯亮起</string>
+    <string name="move_the_roller">前后拨动滚轮，前后左右拨动左右摇杆，重复两至三遍，直至第四个灯亮起</string>
+    <string name="step1">1/3</string>
+    <string name="step2">2/3</string>
+    <string name="step3">3/3</string>
+    <string name="exit_calibrate">退出校准</string>
+    <string name="connect_rc">请连接遥控器</string>
+    <string name="diconect_drone">请断开飞机连接</string>
+    <string name="get_known">知道了</string>
+
+    <string name="ok">确定</string>
+
+    <string name="getver_failure">获取版本失败.</string>
+
+    <string name="skyline_title_hot">推荐</string>
+    <string name="skyline_title_recent">最新</string>
+    <string name="skyline_title_following">关注</string>
+    <string name="local_photo">本地照片</string>
+    <string name="local_video">本地视频</string>
+    <string name="fly_photo">航拍照片</string>
+    <string name="fly_video">航拍视频</string>
+    <string name="later_share">稍后分享</string>
+    <string name="save_success">收藏成功</string>
+    <string name="save_cancel">已取消</string>
+    <string name="select_cancel_save">取消收藏</string>
+    <string name="select_save">收藏</string>
+    <string name="select_delete">删除</string>
+    <string name="select_cancel_follow">取消关注</string>
+    <string name="select_follow">关注</string>
+    <string name="follow_success">关注成功</string>
+    <string name="report_success">举报成功</string>
+    <string name="shield_success">屏蔽成功</string>
+    <string name="delete_success">删除成功</string>
+    <string name="personal_works">作品</string>
+    <string name="personal_follow">关注</string>
+    <string name="personal_fans">粉丝</string>
+    <string name="personal_favorites">收藏</string>
+    <string name="time_just">刚刚</string>
+    <string name="time_mins_ago">分钟前</string>
+    <string name="time_hrs_ago">小时前</string>
+    <string name="time_days_ago">天前</string>
+    <string name="upload_fail">上传失败</string>
+    <string name="publish_fail">发布失败</string>
+    <string name="publish_success">发布成功</string>
+    <string name="publish_preview">预览</string>
+    <string name="publish_next">使用</string>
+    <string name="title_work">的作品</string>
+    <string name="title_message">消息</string>
+    <string name="title_notice">通知</string>
+    <string name="input_hint">请输入举报内容</string>
+    <string name="user_clause">用户条款</string>
+    <string name="str_agree">同意</string>
+    <string name="str_disagree">不同意</string>
+    <string name="text_search">搜索</string>
+    <string name="choose_country_title">选择国家</string>
+    <string name="followed_tips_need_login">登录之后查看作品.</string>
+
+
+    <!-- 蓝牙 -->
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+    <string name="no_bluetooth_device_title">没有找到蓝牙设备?</string>
+    <string name="no_bluetooth_device_tip1">① 请将蓝牙棒打开，并进入配对模式</string>
+    <string name="no_bluetooth_device_tip2">② 确保蓝牙棒在手机米距离内</string>
+    <string name="no_bluetooth_device_tip3">③ 其他任何设备上的FlightGo设备</string>
+    <string name="no_open_bluetooth_device">此功能需要在开启手机蓝牙功能才能工作，请将其打开</string>
+    <string name="no_open_bluetooth_device_btn_text">前往设置</string>
+    <string name="connect_bluetooth_device_des1">功能键</string>
+    <string name="connect_bluetooth_device_des2">滑杆</string>
+    <string name="connect_bluetooth_device_des3">体感键</string>
+    <string name="connect_bluetooth_device_des4">电量灯</string>
+    <string name="connect_bluetooth_device_des5">飞机状态</string>
+    <string name="connect_bluetooth_device">已连接设备</string>
+    <string name="connect_bluetooth_device_discovery">正在搜索蓝牙设备</string>
+    <string name="connecting_bluetooth_device">正在连接</string>
+    <string name="connecting_bluetooth_device_fail">连接失败,请重试</string>
+    <string name="disconnect_bluetooth_device">已断开连接</string>
+    <string name="safety_blueth_fly">蓝牙棒</string>
+    <string name="open_bluetooth_failed">蓝牙开启失败</string>
+    <string name="blue_connecting">连接</string>
+    <string name="blue_disconnect">断开</string>
+    <string name="blue_only_use">单独使用遥控棒</string>
+    <string name="blue_send_device">发送设备信息</string>
+    <string name="blue_rc_tip1">已经连接遥控器无法连接蓝牙</string>
+    <string name="only_bluetooth_device_tip1">你可以操作飞行器（不通过 FlightGo）</string>
+    <string name="only_bluetooth_device_tip2">点击下方“飞行器设备信息”按钮，将飞行器的SSID以及密码保存\n遥控棒，遥控棒即可以使用自动连接WIFI方式连接操作飞行器</string>
+
+    <!--美摄视频编辑-->
+    <string name="videoedit_completing">正在生成</string>
+    <string name="videoedit_compile">生成</string>
+    <string name="videoedit_bold">粗体</string>
+    <string name="videoedit_italics">斜体</string>
+    <string name="videoedit_shadow">阴影</string>
+    <string name="videoedit_custom1">自定义</string>
+    <string name="videoedit_adjust">调整</string>
+    <string name="videoedit_width">宽    度</string>
+    <string name="videoedit_transparency">透明度</string>
+    <string name="videoedit_size">大小</string>
+    <string name="videoedit_backward">倒放</string>
+    <string name="videoedit_select_material">选择素材</string>
+    <string name="videoedit_drone_video">航拍视频</string>
+    <string name="videoedit_drone_img">航拍图片</string>
+    <string name="videoedit_local">本地</string>
+    <string name="videoedit_trasitions">转场</string>
+    <string name="videoedit_split_tip1">素材太短，不允许剪切</string>
+    <string name="videoedit_caption_style">编辑字幕</string>
+    <string name="videoedit_input_caption">请输入字幕：</string>
+    <string name="videoedit_dialog_title">确定要退出吗？</string>
+    <string name="videoedit_dialog_content">退出后不保留当前所有的草稿</string>
+    <string name="videoedit_dialog_complite_title">确定是否要进行编译？</string>
+    <string name="videoedit_dialog_complite_content">编译后将发布到社区.</string>
+    <string name="apply_all_trinsitions">应用到所有转场</string>
+    <string name="videoedit_default">默认</string>
+    <string name="videoedit_regular">楷体</string>
+    <string name="videoedit_none">无</string>
+    <string name="videoedit_selected">已选项目(</string>
+    <string name="videoedit_selected_tip1">超过素材选择上限</string>
+    <string name="videoedit_tip1">请选择需要编辑的图片或者视频</string>
+    <string name="videoedit_tip2">视频长度低于1s,无法添加字幕</string>
+
+    <string name="my_fault_tip_name">请输入您的真实姓名</string>
+    <string name="my_fault_tip_phone">请输入您的手机号码</string>
+    <string name="my_fault_tip_email">请输入您的电子邮箱</string>
+    <string name="my_fault_tip_drone">请输入您的飞行器码</string>
+    <string name="tracks_content">请描述故障信息，收到后我们会第一时间给您回复。</string>
+    <string name="fault_tip1">点击提交按钮，会将 App 内的飞行日志\n一起上传提交。</string>
+    <string name="fault_service_telephone">客服电话</string>
+    <string name="fault_pair_flight_log">飞行日志大小(%1$s)</string>
+    <string name="fault_pair_no_flight_log">未获取到飞行日志</string>
+    <string name="name_execess"> 姓名不能多于24个字符</string>
+    <string name="error_phone">手机号码格式不正确</string>
+    <string name="error_email_format">邮箱格式不正确</string>
+    <string name="no_log_file">没有飞行日志</string>
+    <string name ="cache_manager_log">清除固件数据</string>
+    <string name ="cache_manager_pic">清除本地图片和视频</string>
+    <string name ="cache_manager_app">清除其他缓存</string>
+    <string name ="cache_manager">缓存管理</string>
+    <string name ="no_message">暂无相关消息</string>
+    <string name="text_alert">警告</string>
+    <string name="clear_tip">您确定要%1$s吗？</string>
+    <string name="clear_success">清除成功</string>
+    <string name="no_pic">暂无航拍图片</string>
+    <string name="no_video">暂无航拍视频</string>
+    <string name="follow_system">跟随系统语言</string>
+    <string name="creat_film">创作短片</string>
+    <string name="photo_publish">相册上传</string>
+    <string name="posting_to_skyline">正在发布到 Skyline</string>
+    <string name="my_fault_tip_userName">请输入用户名</string>
+    <string name="has_new_app">检测有版本更新</string>
+    <string name="go_to_update">请前往升级</string>
+
+    <string name="memory_route">记忆航线</string>
+    <string name="create_route">创建航线</string>
+    <string name="execute_route">执行航线</string>
+    <string name="delete_route">删除航线</string>
+    <string name="fly_create">飞行创建</string>
+    <string name="hold_create">手持创建</string>
+    <string name="stop_back">停止返航</string>
+    <string name="start_record">开始记录</string>
+    <string name="draw_route_explain">用手水平持握飞行器，画出一段轨迹；\n\n录制后，点击“完成录制”按钮，结束并存储轨迹（最长可以录制 60 秒并自动完成）</string>
+    <string name="text_ok">知道了</string>
+    <string name="file_not_value">轨迹文件无效</string>
+    <string name="route_start">将飞行器飞到起始位置后，点击屏幕中央的“开始记录”按钮，开始录制；</string>
+    <string name="route_complete">录制后，点击“完成录制” 按钮，结束并存储轨迹（最长可以录制 60 秒并自动完成）</string>
+    <string name="no_sina_weibo">未安装新浪微博</string>
+
+    <string name="flow_weak">光流环境差</string>
+    <string name="taking_off_auto">开始自动起飞</string>
+
+    <string name="drone_log">日志</string>
+    <string name="take_off_finish">自动起飞完成</string>
+    <string name="record_Take_off_point">返航点已记录，返航高度为%1$d米</string>
+    <string name="start_auto_land">开始自动降落</string>
+    <string name="land_finish">自动降落完成</string>
+    <string name="cancle_auto_land">取消自动降落</string>
+    <string name="start_return">开始自动返航</string>
+    <string name="returning_success">自动返航完成</string>
+    <string name="cancle_return_success">取消自动返航</string>
+    <string name="smart_track">智能追踪</string>
+    <string name="on_key_round">一键环绕</string>
+
+    <string name="load_error">加载错误</string>
+    <string name="gps_fault">GPS出现故障</string>
+    <string name="imu_fault">IMU出现故障</string>
+    <string name="barometer_fault">气压计出现故障</string>
+    <string name="optional_fault">光流出现故障</string>
+    <string name="ultrasonic_fault">超声波故障</string>
+    <string name="out_of_fence">超出电子围栏限制</string>
+    <string name="into_no_fly_qone">闯入禁飞区，正在强制降落</string>
+    <string name="magenetic_interfere">磁场干扰严重，请谨慎飞行</string>
+    <string name="battery_low">电池电量低，请谨慎飞行</string>
+    <string name="battery_low_landing">严重低电量，飞机降落中</string>
+    <string name="battery_low_no_fly">严重低电量，请充满电后飞行</string>
+    <string name="grounding_gps">地面(GPS)</string>
+    <string name="grounding_flow">地面(光流)</string>
+    <string name="grounding_zitai">地面(姿态)</string>
+    <string name="ground_vio">地面(VIO视觉)</string>
+    <string name="taking_off_flow">起飞中(光流)</string>
+    <string name="taking_off_vison">起飞中(VIO视觉)</string>
+    <string name="flying_vision">飞行中(VIO视觉)</string>
+    <string name="hovring_vision">悬停中(VIO视觉)</string>
+    <string name="landing_vision">降落中(VIO视觉)</string>
+    <string name="returning_vision">返航中(VIO视觉)</string>
+    <string name="flying_gps">飞行中(GPS)</string>
+    <string name="flying_flow">飞行中(光流)</string>
+    <string name="landing_gps">降落中(GPS)</string>
+    <string name="landing_flow">降落中(光流)</string>
+    <string name="hovring_gps">悬停中(GPS)</string>
+    <string name="hovring_flow">悬停中(光流)</string>
+    <string name="backing_gps">返航中(GPS)</string>
+    <string name="surrounding">环绕中</string>
+    <string name="following">跟踪中</string>
+    <string name="start_chack">开始跟踪</string>
+    <string name="start_surround">开始环绕</string>
+    <string name="exit_track">退出跟踪</string>
+    <string name="exit_surround">退出环绕</string>
+
+    <string name="play_error">播放错误!</string>
+    <string name="replay">重新播放</string>
+    <string name="being_prepared">正在准备...</string>
+    <string name="being_buffered">正在缓冲...</string>
+    <string name="reset_pwd_success">密码修改成功</string>
+    <string name="only_save_local_text">仅保存到本地</string>
+    <string name="tips_not_wifi">您当前正在使用移动网络，继续播放将消耗流量</string>
+    <string name="tips_not_wifi_confirm">继续播放</string>
+    <string name="tips_not_wifi_cancel">停止播放</string>
+    <string name="no_url">播放地址无效</string>
+    <string name="click_to_restart">点击重试</string>
+    <string name="video_loading_faild">视频加载失败</string>
+
+    <string name="one_key_video">一键短片</string>
+    <string name="voice_distinguish">语音识别</string>
+    <string name="surround_fly">环绕飞行</string>
+    <string name="memery_fly">记忆巡航</string>
+    <string name="auto_follow">自动跟随</string>
+    <string name="piture_360">360全景</string>
+    <string name="one_key_back">一键返航</string>
+    <string name="developing">该功能正在开发中，敬请期待</string>
+
+    <!--如何lianjie-->
+    <string name="howtoconnecttip1">开启设备</string>
+    <string name="howtoconnecttip2"> 连接设备</string>
+    <string name="howtoconnecttip3"> 连接遥控器</string>
+    <string name="howtoconnecttip4"> 遥控器连接飞机</string>
+    <string name="howtoconnecttip5"> 起飞/降落</string>
+    <string name="howtoconnecttip6"> 关于导航栏</string>
+    <string name="howtoconnecttip7"> 指南针校准</string>
+    <string name="howtoconnecttip8"> 飞行环境</string>
+    <string name="howtoconnecttip9"> 禁飞环境</string>
+    <string name="howtoconnecttip10"> 展开 HESPER 四个机臂与脚架，长按 HESPER 开关 3 秒，启动飞机</string>
+    <string name="howtoconnecttip11"> 打开手机系统Wi-Fi设置页面，找到标志为 "HESPER-XXXXXX" 的Wi-Fi名称，输入默认密码进行连接</string>
+    <string name="howtoconnecttip12">  打开手机系统Wi-Fi设置页面，找到标志为 "HESPER-RC-XXXXXX" 的Wi-Fi名称，输入默认密码进行连接</string>
+    <string name="howtoconnecttip13"> 成功连接无人机Wi-Fi后，打开App并点击 "开始使用" 进入操控界面，即完成关联</string>
+    <string name="howtoconnecttip14"> 设备成功连接，App操控界面将会以弹窗形式提醒 "飞机已连接"</string>
+    <string name="howtoconnecttip15"> 飞机出厂已经和遥控器进行了配对，第一次开启飞机和遥控器，两台设备会自动连接。若无法连接，则通过手机连接遥控器后，在飞行器"设置界面 - 连接设置 - 遥控器连接无人机"界面查找并连接无人机Wi-Fi</string>
+    <string name="howtoconnecttip16"> 点击该按键实现飞行器自动解锁并起飞</string>
+    <string name="howtoconnecttip18"> 飞行器原地爬升至1.5m处悬停</string>
+    <string name="howtoconnecttip19"> 点击该按键实现飞行器自动降落并上锁</string>
+    <string name="howtoconnecttip20"> 飞行器降落过程中，可通过STOP键取消该功能</string>
+    <string name="howtoconnecttip21"> 上升</string>
+    <string name="howtoconnecttip22"> 下降</string>
+    <string name="howtoconnecttip23">  左旋</string>
+    <string name="howtoconnecttip24"> 右旋</string>
+    <string name="howtoconnecttip25"> 前进</string>
+    <string name="howtoconnecttip26"> 后退</string>
+    <string name="howtoconnecttip27"> 左飞</string>
+    <string name="howtoconnecttip28"> 右飞</string>
+    <string name="howtoconnecttip29"> 默认美国手操作形式，用户初次飞行需先通过安全摇杆熟悉操作</string>
+    <string name="howtoconnecttip30"> 飞机连接信号</string>
+    <string name="howtoconnecttip31"> (WI-FI)</string>
+    <string name="howtoconnecttip32">  GPS 星数</string>
+    <string name="howtoconnecttip33"> (室外飞行不低于8颗)</string>
+    <string name="howtoconnecttip34"> 飞机电池电量</string>
+    <string name="howtoconnecttip35">  (低于10%不得起飞)</string>
+    <string name="howtoconnecttip36">  光流定位状态</string>
+    <string name="howtoconnecttip37"> (搜星数低于 8 颗/室内飞行)</string>
+    <string name="howtoconnecttip38"> 飞机飞行前，用户需观察导航栏数据是否存在异常，如出现异常需停止飞行活动。</string>
+    <string name="howtoconnecttip39">  飞机初次飞行，用户需进行指南针校准减少方向误差</string>
+    <string name="howtoconnecttip40"> 建议用户在不同环境下使用飞机飞行前，都进行飞机罗盘校准</string>
+    <string name="howtoconnecttip41"> 高压电线塔等强电磁区域</string>
+    <string name="howtoconnecttip42"> 机场10km范围</string>
+    <string name="howtoconnecttip43">  广场等人员密集场所</string>
+    <string name="howtoconnecttip44"> 极端气候环境下</string>
+    <string name="howtoconnecttip45"> 完成连接</string>
+    <string name="howtoconnecttip46"> 操控指引</string>
+    <string name="howtoconnecttip47"> 摇杆指引</string>
+    <string name="howtoconnecttip48"> ①展开TAKE四个机臂与脚架，②长按TAKE开关3秒，启动TAKE</string>
+    <string name="howtoconnecttip49"> 打开手机系统Wifi设置页面，找到标识，为“take-xxxxxx”热点，输入默认密码进行连接。</string>
+
+</resources>
