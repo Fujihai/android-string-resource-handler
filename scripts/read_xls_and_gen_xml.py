@@ -6,30 +6,34 @@
 # Language : Python
 # Latest Edited Time : 2018-04-12
 
+##--------------代码流程-------------
+##1.读取xls文件
+##2.将读取的单元格数据拼接成一个行数
+##-----------------------------------
+
 #导入相应处理库
 import xml.etree.ElementTree as ET
 import xlwt
-import xlrd     #xls文件读取
+import xlrd     
 import xml.dom.minidom
 import sys
 import io
 import locale
 import codecs
+from ruamel import yaml 
 
-#打印系统编码格式
-def printCodeType():
-    print(sys.getdefaultencoding())        #系统默认编码
-    print(sys.getfilesystemencoding())     #文件系统编码
-    print(locale.getdefaultlocale())       #系统当前编码
-    print(sys.stdout.encoding)             #终端输出编码
-    print(sys.stdin.encoding)              #终端输入编码
+list_language = ['en','cn','ja','fr','ko']
 
 #printCodeType()
+with open('../config.yml') as f:
+    content = yaml.load(f, Loader=yaml.RoundTripLoader)
+    target_xls_path = 'target_xls_path'
+    target_xml_path = 'target_xml_path'
 
 #读取xls文件
-readWorkbook = xlrd.open_workbook("../xls/Android_Multi_Language_Proofread.xls")
+readWorkbook = xlrd.open_workbook(content[target_xls_path])
 #查看xls文件中的sheet表名
-print(readWorkbook.sheet_names())
+#print(readWorkbook.sheet_names())
 #使用索引读取第一个sheet
 translate_sheet = readWorkbook.sheet_by_index(0)
 
@@ -58,13 +62,24 @@ def generateXml(target_path,open_mode,encoding_type,index):
                         + str('</string>')
                     fp.write(tmp_str)
                 count += 1
-    fp.write('</resources>\r\n')
+    fp.write('\r\n</resources>\r\n')
     fp.close()
 
-generateXml('../xml/values-en.xml','w','UTF-8-SIG',2)
-generateXml('../xml/values-cn.xml','w','UTF-8-SIG',3)
-generateXml('../xml/values-jp.xml','w','UTF-8-SIG',4)
-generateXml('../xml/values-ko.xml','w','UTF-8-SIG',5)
-generateXml('../xml/values-fr.xml','w','UTF-8-SIG',6)
+i = 2
+for tmp_str in list_language:
+    tmp_str1 = content[target_xml_path][tmp_str]
+    generateXml(tmp_str1,'w','UTF-8-SIG',i)
+    #print(type(content[target_xml_path][tmp_str]))
+    #print(content[target_xml_path][tmp_str])
+    i += 1
+
+#f.close()
+##generateXml('../xml/values-en.xml','w','UTF-8-SIG',2)
+##generateXml('../xml/values-cn.xml','w','UTF-8-SIG',3)
+##generateXml('../xml/values-jp.xml','w','UTF-8-SIG',4)
+##generateXml('../xml/values-ko.xml','w','UTF-8-SIG',5)
+##generateXml('../xml/values-fr.xml','w','UTF-8-SIG',6)
+
+
 
 

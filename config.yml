@@ -1,0 +1,15 @@
+source_xml_path: 
+  en: ../multi-strings-values/values/strings.xml
+  cn: ../multi-strings-values/values-zh-rCN/strings.xml
+  ja: ../multi-strings-values/values-ja/strings.xml
+  fr: ../multi-strings-values/values-fr/strings.xml
+  ko: ../multi-strings-values/values-ko/strings.xml
+
+target_xls_path:  ../xls/Android_Multi_Language_Proofread.xls
+
+target_xml_path: 
+  en: ../xml/values-en.xml
+  cn: ../xml/values-cn.xml
+  ja: ../xml/values-ja.xml
+  fr: ../xml/values-fr.xml
+  ko: ../xml/values-ko.xml
