@@ -1,15 +1,15 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
-# Author : liufushihai
-# Descriptor : 从xls文件中读取数据并生成xml文件
-# Language : Python
-# Latest Edited Time : 2018-04-12
+#   __author__ = 'liufushihai'
+#   __date__ = '2018-04-12'
+#   __desc__ = '从xls文件中读取数据并生成xml文件'
 
-##--------------代码流程-------------
-##1.读取xls文件
-##2.将读取的单元格数据拼接成一个行数
-##-----------------------------------
+##-----------------代码流程-----------------------
+## 1.读取xls文件
+## 2.将读取的单元格数据拼接成一行字串
+## 3.将拼接字串写入到相应xml文件中
+##------------------------------------------------
 
 #导入相应处理库
 import xml.etree.ElementTree as ET
@@ -27,6 +27,7 @@ list_language = ['en','cn','ja','fr','ko']
 #printCodeType()
 with open('../config.yml') as f:
     content = yaml.load(f, Loader=yaml.RoundTripLoader)
+    print('*** Read config.yml successfully !')
     target_xls_path = 'target_xls_path'
     target_xml_path = 'target_xml_path'
 
@@ -43,7 +44,6 @@ doc = xml.dom.minidom.Document()
 root = doc.createElement('resource')
 #将根节点添加到文档对象中
 doc.appendChild(root)
-
 
 def generateXml(target_path,open_mode,encoding_type,index):
     count = 0
@@ -69,16 +69,10 @@ i = 2
 for tmp_str in list_language:
     tmp_str1 = content[target_xml_path][tmp_str]
     generateXml(tmp_str1,'w','UTF-8-SIG',i)
-    #print(type(content[target_xml_path][tmp_str]))
-    #print(content[target_xml_path][tmp_str])
+    print('*** Generated xml file successfully: '+ \
+           str(content[target_xml_path][tmp_str]))
     i += 1
-
-#f.close()
-##generateXml('../xml/values-en.xml','w','UTF-8-SIG',2)
-##generateXml('../xml/values-cn.xml','w','UTF-8-SIG',3)
-##generateXml('../xml/values-jp.xml','w','UTF-8-SIG',4)
-##generateXml('../xml/values-ko.xml','w','UTF-8-SIG',5)
-##generateXml('../xml/values-fr.xml','w','UTF-8-SIG',6)
+    
 
 
 
