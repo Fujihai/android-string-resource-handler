@@ -23,8 +23,8 @@
 
 * `.xls` 文件生成 : `python read_xml_and_gen_xls.py` 。
 
-  ![]()
+  ![](https://github.com/liufushihai/android-string-resource-handler/blob/master/images/read_xml_and_gen_xls.gif)
 
 * `.xml` 文件生成：`python read_xls_and_gen_xml.py` 。
 
-  ![]()
+  ![](https://github.com/liufushihai/android-string-resource-handler/blob/master/images/read_xls_and_gen_xml.gif)
